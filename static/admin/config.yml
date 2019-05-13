@@ -9,10 +9,9 @@ media_folder: static/img
 public_folder: /img
 
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: dhdgxofkv
-    api_key: 723771931458548
+    publicKey: 03ff9918d23077831bf1
     
 
 
