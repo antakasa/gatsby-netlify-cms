@@ -14,7 +14,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+                {title} tttt
               </h2>
               <PageContent className="content" content={content} />
             </div>
@@ -51,7 +51,7 @@ AboutPage.propTypes = {
 
 export default AboutPage
 
-export const aboutPageQuery = graphql`
+export const aboutPageQuery = graphql `
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
