@@ -8,6 +8,14 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dhdgxofkv
+    api_key: 723771931458548
+    
+
+
 collections:
   - name: "blog"
     label: "Blog"
